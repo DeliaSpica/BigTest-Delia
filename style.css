@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gainsboro;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 50px;
+}
+
+main {
+  background-color: green;
+  border: 5px solid black;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+
+  flex-basis: 10em;
+  height: 10em;
+}
+
+div {
+  background-color: white;
+  border: 5px solid black;
+  padding: 2px;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: ; */
+}
+
+.cont1 {
+  display: flex;
+  flex-direction: column;
+}
